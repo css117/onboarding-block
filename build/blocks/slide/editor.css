@@ -1,0 +1,8 @@
+.ob-slide-editor {
+    background: white;
+    padding: 12px;
+    margin: 10px auto;
+    min-height: 80px;
+    box-shadow: 2px 20px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}

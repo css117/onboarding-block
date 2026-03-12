@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "onboarding/popup",
+    "version": "3.0.0",
+    "title": "Onboarding Popup",
+    "category": "widgets",
+    "description": "Onboarding carousel popup — free Gutenberg content per slide.",
+    "keywords": [
+        "onboarding",
+        "popup",
+        "tutoriel",
+        "carrousel"
+    ],
+    "textdomain": "onboarding-block",
+    "editorScript": "file:../../build/blocks/popup/index.js",
+    "editorStyle": "file:../../build/blocks/popup/editor.css",
+    "style": "file:../../style-front.css",
+    "attributes": {
+        "accentColor": {
+            "type": "string",
+            "default": "#2271b1"
+        },
+        "labelPrev": {
+            "type": "string",
+            "default": ""
+        },
+        "labelNext": {
+            "type": "string",
+            "default": ""
+        },
+        "labelDone": {
+            "type": "string",
+            "default": ""
+        },
+        "cookieName": {
+            "type": "string",
+            "default": "onboarding_done"
+        },
+        "cookieDays": {
+            "type": "number",
+            "default": 365
+        },
+        "triggerText": {
+            "type": "string",
+            "default": "Revoir le tutoriel"
+        },
+        "showTrigger": {
+            "type": "boolean",
+            "default": true
+        }
+    },
+    "supports": {
+        "html": false,
+        "align": false
+    }
+}

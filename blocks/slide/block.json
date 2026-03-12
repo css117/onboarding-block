@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "onboarding/slide",
+    "version": "3.0.0",
+    "title": "Onboarding Slide",
+    "category": "widgets",
+    "description": "A slide in the onboarding popup.",
+    "textdomain": "onboarding-block",
+    "editorScript": "file:../../build/blocks/slide/index.js",
+    "editorStyle": "file:../../build/blocks/slide/editor.css",
+    "parent": [
+        "onboarding/popup"
+    ],
+    "attributes": {
+        "verticalAlignment": {
+            "type": "string",
+            "default": "top"
+        },
+        "horizontalAlignment": {
+            "type": "string",
+            "default": "left"
+        }
+    },
+    "supports": {
+        "html": false,
+        "align": false,
+        "reusable": false
+    }
+}

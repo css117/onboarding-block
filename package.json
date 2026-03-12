@@ -1,0 +1,15 @@
+{
+    "name": "onboarding-block",
+    "version": "3.0.0",
+    "description": "Onboarding carousel popup — free Gutenberg content per slide.",
+    "license": "GPL-2.0-or-later",
+    "private": true,
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start",
+        "i18n": "wp-scripts i18n make-pot . languages/onboarding-block.pot --include=blocks"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^27.0.0"
+    }
+}

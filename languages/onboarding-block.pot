@@ -1,0 +1,135 @@
+# Copyright (C) 2026 Claude.ai & Giboo.fr
+# This file is distributed under the same license as the Onboarding Popup Block plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Onboarding Popup Block 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/onboarding-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-12T19:20:36+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: onboarding-block\n"
+
+#. Plugin Name of the plugin
+#: onboarding-block.php
+msgid "Onboarding Popup Block"
+msgstr ""
+
+#. Description of the plugin
+#: onboarding-block.php
+msgid "Onboarding carousel popup — free Gutenberg content per slide."
+msgstr ""
+
+#. Author of the plugin
+#: onboarding-block.php
+msgid "Claude.ai & Giboo.fr"
+msgstr ""
+
+#: blocks/popup/index.js:34
+#: build/blocks/popup/index.js:1
+msgid "Appearance"
+msgstr ""
+
+#: blocks/popup/index.js:36
+#: build/blocks/popup/index.js:1
+msgid "Accent color"
+msgstr ""
+
+#: blocks/popup/index.js:44
+#: build/blocks/popup/index.js:1
+msgid "Navigation"
+msgstr ""
+
+#: blocks/popup/index.js:46
+#: build/blocks/popup/index.js:1
+msgid "Previous button"
+msgstr ""
+
+#: blocks/popup/index.js:51
+#: build/blocks/popup/index.js:1
+msgid "Next button"
+msgstr ""
+
+#: blocks/popup/index.js:56
+#: build/blocks/popup/index.js:1
+msgid "Done button"
+msgstr ""
+
+#: blocks/popup/index.js:61
+#: build/blocks/popup/index.js:1
+msgid "Settings"
+msgstr ""
+
+#: blocks/popup/index.js:63
+#: build/blocks/popup/index.js:1
+msgid "Cookie name"
+msgstr ""
+
+#: blocks/popup/index.js:66
+#: build/blocks/popup/index.js:1
+msgid "Unique identifier if you have multiple popups."
+msgstr ""
+
+#: blocks/popup/index.js:69
+#: build/blocks/popup/index.js:1
+msgid "Cookie duration (days)"
+msgstr ""
+
+#: blocks/popup/index.js:75
+#: build/blocks/popup/index.js:1
+msgid "Show reopen link"
+msgstr ""
+
+#: blocks/popup/index.js:81
+#: build/blocks/popup/index.js:1
+msgid "Link text"
+msgstr ""
+
+#: blocks/popup/index.js:99
+#: build/blocks/popup/index.js:1
+msgid "+ Add a slide"
+msgstr ""
+
+#: blocks/popup/block.json
+msgctxt "block title"
+msgid "Onboarding Popup"
+msgstr ""
+
+#: blocks/popup/block.json
+msgctxt "block description"
+msgid "Onboarding carousel popup — free Gutenberg content per slide."
+msgstr ""
+
+#: blocks/popup/block.json
+msgctxt "block keyword"
+msgid "onboarding"
+msgstr ""
+
+#: blocks/popup/block.json
+msgctxt "block keyword"
+msgid "popup"
+msgstr ""
+
+#: blocks/popup/block.json
+msgctxt "block keyword"
+msgid "tutoriel"
+msgstr ""
+
+#: blocks/popup/block.json
+msgctxt "block keyword"
+msgid "carrousel"
+msgstr ""
+
+#: blocks/slide/block.json
+msgctxt "block title"
+msgid "Onboarding Slide"
+msgstr ""
+
+#: blocks/slide/block.json
+msgctxt "block description"
+msgid "A slide in the onboarding popup."
+msgstr ""
